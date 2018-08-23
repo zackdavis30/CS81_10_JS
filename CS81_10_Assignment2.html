@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS81_ZD_Assignment2</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$("#btn1").click(function(){
+				$("p").append(" <b> Append text</b>.");
+			});
+
+			$("#btn2").click(function(){
+				$("ol").append("<li>Appended list items</li>");
+			});
+
+		});
+	</script>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<ol>
+	<li>List item 1</li>
+	<li>List item 2</li>
+	<li>List item 3</li>
+</ol>
+
+
+
+	<button id="btn1">Append text</button>
+	<button id="btn2">Appended list items</button>
+
+
+</body>
+</html>

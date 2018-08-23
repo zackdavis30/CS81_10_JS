@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS81_ZD_Assignment1</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+</head>
+<body>
+
+	<script type="text/javascript">
+		$('document').ready(function(){
+			$("div").mouseover(function(){
+				$("div").animate({fontSize: '100px'}, "slow")
+			});
+			$("div").mouseout(function(){
+				$("div").animate({fontSize:'18px'}, "slow");
+
+			});
+
+		});
+	</script>
+
+	<div style="background: #98bf21; height: 200px; width: 600px">Hello World</div>
+
+</body>
+</html>
